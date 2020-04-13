@@ -25,8 +25,10 @@
 	</header>
 	  
 	<!-- This is the navigation bar-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Mr. Leaf Lunchroom</a>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/Logo.png" width="30" height="30" alt="Logo nav"> Mr. Leaf Lunchroom
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria- controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -54,13 +56,69 @@
     </nav>
 	  
 	<!-- This is actual content-->
-	<div class="container">
-	  
+	<div class="main">
+	  <div class="container">
+		  <div class="row">
+		    <div class="col">
+			  <h1>Home</h1>
+			</div>
+		  </div>
+	  </div>
 	</div>
-	  
+
 	<!--This is the footer-->
 	<footer>
-	    
+	  <div class="container-fluid">
+	    <div class="row">
+			
+		  <div class="col-12 col-sm-6 col-lg-3">
+			<h2>About Mr. Leaf Lunchroom</h2>
+			<p>Your go-to plant-based lunchroom located in Breda. Mr. Leaf uses fresh and plant-based ingredients for healthy and delicous dishes. Come and visit us and taste the power of plant-based!</p>
+		  </div>
+			
+	      <div class="col-12 col-sm-6 col-lg-3">
+			<h2>Quick Navigation</h2>
+			<ul>
+			  <li><a href="#">Home</a></li>
+			  <li><a href="#">Menu</a></li>
+			  <li><a href="#">About Us</a></li>
+			  <li><a href="#">Why Plant-Based?</a></li>
+			</ul>
+		  </div>
+			
+		  <div class="col-12 col-sm-6 col-lg-3" style="color:white">
+			<h2>Contact</h2>
+			<span><i class="fas fa-phone"></i> &nbsp; +31 6 40762552 &nbsp;</span>
+			<span><i class="far fa-envelope"></i> &nbsp; 183072@buas.nl</span>
+			<br> <br>
+			<div style="text-align: center">
+			  <button type="button" class="btn btn-success"><i class="fab fa-facebook-square fa-2x"></i></button> &nbsp;&nbsp;
+			  <button type="button" class="btn btn-success"><i class="fab fa-instagram fa-2x"></i></button> &nbsp; &nbsp;
+			  <button type="button" class="btn btn-success"><i class="fab fa-linkedin fa-2x"></i></button>
+			</div>
+		  </div>
+			
+		  <div class="col-12 col-sm-6 col-lg-3">
+			<h2>Newsletter</h2>
+			<p>Do you want to stay up to date with Mr. Leaf? Sign up for our newsletter down here!</p>
+            <form>
+              <div class="form-row align-items-center">
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormInput">E-Mail</label>
+                  <input type="email" class="form-control mb-2" id="inlineFormInput" placeholder="E-Mail">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-light mb-2">Submit</button>
+                </div>
+              </div>
+            </form>
+		  </div>
+			
+		</div>
+	  </div>
+	  <div class="container-fluid copyright">
+		&copy; 2020 Mr. Leaf Lunchroom | Created by Kian van Holst (183072)
+      </div>
 	</footer>
 	  
 	<!-- Installed Javascript, jQuery first, then Popper.js (included in Bootstrap JS) -->
